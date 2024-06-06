@@ -21,7 +21,7 @@ pip install -r requirements.txt
 To run the script, use the following command:
 
 ```bash
-python extract_frames.py --video_path <path_to_video> --output_folder <output_folder_path> --fps <fps>
+python fe.py --video_path <path_to_video> --output_folder <output_folder_path> --fps <fps>
 ```
 
 Arguments
@@ -33,7 +33,7 @@ Arguments
 Example
 
 ```bash
-python extract_frames.py --video_path sample_video.mp4 --output_folder frames --fps 1.2
+python fe.py --video_path sample_video.mp4 --output_folder frames --fps 1.2
 ```
 
 This command will extract frames from `sample_video.mp4` at 1.2 frames per second and save them in the `frames` folder.
